@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Định dạng văn bản với CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f9;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 12px;
+        }
+
+        h2 {
+            color: #2980b9;
+            font-size: 20px;
+            margin-top: 25px;
+        }
+
+        p {
+            color: #333333;
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .intro {
+            font-style: italic;
+            color: #555555;
+            text-indent: 30px;
+        }
+
+        .highlight-text {
+            color: #e74c3c;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .quote {
+            background-color: #ecf0f1;
+            border-left: 5px solid #3498db;
+            padding: 15px 20px;
+            font-style: italic;
+            margin: 20px 0;
+            text-indent: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Khám Phá Sức Mạnh Của CSS</h1>
+
+        <p class="intro">
+            CSS (Cascading Style Sheets) là ngôn ngữ định kiểu dùng để miêu tả cách trình bày tài liệu viết bằng HTML. CSS giúp tách biệt nội dung cấu trúc và giao diện trang web, mang lại khả năng tùy biến linh hoạt và tính thẩm mỹ cao.
+        </p>
+
+        <h2>1. Các thuộc tính định dạng chữ (Font & Text)</h2>
+        <p>
+            Bạn có thể dễ dàng căn chỉnh lề với thuộc tính <code>text-align</code>, thụt đầu dòng các đoạn văn bản với <code>text-indent</code>, chỉnh khoảng cách dòng thoáng hơn qua <code>line-height</code> và đổi phông chữ bằng <code>font-family</code>.
+        </p>
+
+        <p class="quote">
+            "Thiết kế web không chỉ là làm cho giao diện đẹp mắt, mà còn là tối ưu hóa trải nghiệm đọc và tiếp nhận thông tin của người dùng."
+        </p>
+
+        <h2>2. Màu sắc và Điểm nhấn</h2>
+        <p>
+            Sử dụng màu sắc hợp lý giúp phân cấp thị giác tốt hơn. Ví dụ, một đoạn nội dung có thể được <span class="highlight-text">nhấn mạnh bằng màu đỏ cùng gạch chân</span> để thu hút sự chú ý ngay lập tức của người xem.
+        </p>
+    </div>
+
+</body>
+</html>
